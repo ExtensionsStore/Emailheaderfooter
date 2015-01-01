@@ -1,0 +1,20 @@
+<?php
+/**
+ * Generate email template's header 
+ *
+ * @category    Aydus
+ * @package     Aydus_Emailheaderfooter
+ * @author		Aydus <davidt@aydus.com>
+ */
+?>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+	<tbody>
+		<tr>
+			<td valign="middle">
+				<a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) ?>">
+					<img alt="<?php echo Mage::getStoreConfig('general/store_information/name') ?> logo" src="<?php echo $this->getSkinUrl('images/logo.gif')?>" />
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
