@@ -5,14 +5,14 @@
  * 
  * @category    Aydus
  * @package     Aydus_Emailheaderfooter
- * @author		Aydus <davidt@aydus.com>
+ * @author      Aydus <davidt@aydus.com>
  */
 -->
 <config>
     <modules>
         <Aydus_Emailheaderfooter>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Aydus_Emailheaderfooter>
     </modules>
 </config>
