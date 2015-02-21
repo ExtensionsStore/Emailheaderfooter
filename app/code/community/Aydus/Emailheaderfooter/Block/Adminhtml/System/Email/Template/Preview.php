@@ -5,7 +5,7 @@
  *
  * @category    Aydus
  * @package     Aydus_Emailheaderfooter
- * @author		Aydus <davidt@aydus.com>
+ * @author      Aydus <davidt@aydus.com>
  */
 
 class Aydus_Emailheaderfooter_Block_Adminhtml_System_Email_Template_Preview extends Mage_Adminhtml_Block_System_Email_Template_Preview

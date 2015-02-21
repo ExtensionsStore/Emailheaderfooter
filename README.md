@@ -1,50 +1,11 @@
 Emailheaderfooter
 =======================
+Adds a common header and footer to transactional emails.
 
 Description
 -----------
 This module generates standard store emails that can be customized using familiar 
 Magento transactional emails, themes and templates.
-
-
-Installation Instructions
--------------------------
-Place module files in the following locations:
-
-<pre>app
-	code
-		local
-			Aydus
-				Emailheaderfooter
-					Block
-						Adminhtml
-							System
-								Email
-									Template
-										Preview.php
-						Template.php
-					data
-						emailheaderfooter_setup
-							data-install-1.0.0.php
-					etc
-						config.xml
-					Helper
-						Data.php
-						
-	design
-		frontend
-			base
-				default
-					template
-						aydus
-							emailheaderfooter
-								footer.phtml
-								header.phtml
-							
-	etc
-		modules
-			Aydus_Emailheaderfooter.xml
-</pre>	
 
 How to use
 -------------------------

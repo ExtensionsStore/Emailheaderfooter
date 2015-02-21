@@ -5,7 +5,7 @@
  * 
  * @category    Aydus
  * @package     Aydus_Emailheaderfooter
- * @author		Aydus <davidt@aydus.com>
+ * @author      Aydus <davidt@aydus.com>
  */
 $installer = $this;
 $installer->startSetup();
