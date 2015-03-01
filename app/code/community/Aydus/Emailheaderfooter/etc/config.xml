@@ -11,28 +11,19 @@
 <config>
     <modules>
         <Aydus_Emailheaderfooter>
-            <version>1.1.4</version>
+            <version>1.4.1</version>
         </Aydus_Emailheaderfooter>
     </modules>
-    <frontend>
-        <layout>
-            <updates>
-                <emailheaderfooter>
-                    <file>aydus/emailheaderfooter.xml</file>
-                </emailheaderfooter>
-            </updates>
-        </layout>    	
-    </frontend>    
     <global>
         <helpers>
-             <emailheaderfooter>
+             <aydus_emailheaderfooter>
                 <class>Aydus_Emailheaderfooter_Helper</class>
-             </emailheaderfooter>
+             </aydus_emailheaderfooter>
         </helpers>    
         <blocks>
-             <emailheaderfooter>
+             <aydus_emailheaderfooter>
                 <class>Aydus_Emailheaderfooter_Block</class>
-             </emailheaderfooter>
+             </aydus_emailheaderfooter>
 			<adminhtml>
 				<rewrite>
 					<system_email_template_preview>Aydus_Emailheaderfooter_Block_Adminhtml_System_Email_Template_Preview</system_email_template_preview>

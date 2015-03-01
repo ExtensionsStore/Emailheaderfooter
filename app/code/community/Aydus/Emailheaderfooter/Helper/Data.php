@@ -46,5 +46,14 @@ class Aydus_Emailheaderfooter_Helper_Data extends Mage_Core_Helper_Abstract
 	
 		return $theme;
 	}
+	
+	public function isDeprecated()
+	{
+	    $version = Mage::getVersion();
+	    $latestVersion =  (Mage::getEdition() == 'Enterprise') ? '1.14.1' : $rwdVersion = '1.9.1';
+	    $greaterThanOrEqual = version_compare($version, $latestVersion, '>=');
+
+	    return ($greaterThanOrEqual) ? true : false;
+	}
 		
 }
