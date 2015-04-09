@@ -1,4 +1,4 @@
-app/code/community/Aydus/Emailheaderfooter                              app/code/local/Aydus/Emailheaderfooter/
+app/code/community/Aydus/Emailheaderfooter                              app/code/community/Aydus/Emailheaderfooter/
 app/design/frontend/base/default/template/aydus/emailheaderfooter       app/design/frontend/base/default/template/aydus/emailheaderfooter
 app/etc/modules/Aydus_Emailheaderfooter.xml                             app/etc/modules/
 
